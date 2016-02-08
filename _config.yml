@@ -1,0 +1,28 @@
+name: Fadzli Shah
+favicon: null
+layout_spectrum: 0.717750602401793
+typography_spectrum: 0.3658849676139653
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#FF6700'
+    - '#EBEBEB'
+    - '#C0C0C0'
+    - '#3A6EA5'
+    - '#004E98'
+  brandStrength: 0.8384600670542568
+  lightness: 0.19389018532820046
+  saturation: 0.9696601396426558
+  rhythmicContrast: 0.47340575815178454
+purpose: []
