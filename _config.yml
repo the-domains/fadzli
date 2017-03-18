@@ -1,29 +1,132 @@
 name: Fadzli Shah
-favicon: null
-layout_spectrum: 0.25652
-typography_spectrum: 0.38218
-title: Where Fadzli thinks
+analytics:
+  google: UA-93903318-1
+purpose:
+  - type: contact
+    url: 'mailto:president@team.net.my'
+    label: Tell me and I'll research & write about it
+  - type: external
+    url: 'http://www.team.net.my'
+    label: ASEAN market access
+github: true
+description: '''Cause Unicorns aren''t real. '
+author:
+  name: Fadzli Shah
+  url: 'https://thegrid.ai/fadzli/'
+  email: fadzli@nestconsulting.co
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+  domain: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
+content:
+  - id: !<tag:yaml.org,2002:js/undefined> ''
+    type: video
+    html: >-
+      <iframe
+      src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNuAtoaQF7-k%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNuAtoaQF7-k&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNuAtoaQF7-k%2Fhqdefault.jpg&key=b7d04c9b404c499eba89ee7072e1c4f7&type=text%2Fhtml&schema=youtube"
+      width="640" height="360" scrolling="no" frameborder="0"
+      allowfullscreen></iframe>
+    src: !<tag:yaml.org,2002:js/undefined> ''
+    metadata:
+      author:
+        - name: TeAM Malaysia
+          url: 'https://www.youtube.com/channel/UCMaVeEH13fX6He_3cA9CDsw'
+          avatar: {}
+      '@context': 'http://schema.org'
+      keywords:
+        - team
+        - ecosystem
+        - startups
+        - business
+        - expansion
+        - fundraising
+        - funding
+        - technopreneur
+        - technopreneurs
+        - business trip
+      '@type': VideoObject
+      title: Get Inspired! Plugged-In Tours
+      isBasedOnUrl: 'https://youtu.be/NuAtoaQF7-k'
+      publisher:
+        favicon: 'https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico'
+        url: 'https://www.youtube.com/'
+        name: YouTube
+        domain: youtu.be
+      description: >-
+        ABOUT ASEAN CONNECT & TeAM: Technopreneurs Association of Malaysia
+        (TeAM) through its ASEAN Connect Program aims to bring leading startups
+        to regional success by streamlining the business expansion process into
+        new markets. In 2016, TeAM has launched the Plugged-In Tour Project
+        which leverages TeAM's extensive network, developed over the last 16
+        years to provide startups with unprecedented access to ASEAN markets.
+      related: []
+      app_links:
+        - app_store_id: '544007664'
+          namespace: ai
+          app_name: YouTube
+          url: 'vnd.youtube://www.youtube.com/watch?v=NuAtoaQF7-k&feature=applinks'
+          type: ios
+        - package: com.google.android.youtube
+          app_name: YouTube
+          namespace: ai
+          url: 'vnd.youtube://www.youtube.com/watch?v=NuAtoaQF7-k&feature=applinks'
+          type: android
+        - url: 'https://www.youtube.com/watch?v=NuAtoaQF7-k&feature=applinks'
+          type: web
+          namespace: ai
+        - id: '544007664'
+          namespace: twitter
+          url: 'vnd.youtube://www.youtube.com/watch?v=NuAtoaQF7-k&feature=applinks'
+          type: ipad
+          name: YouTube
+        - id: '544007664'
+          namespace: twitter
+          url: 'vnd.youtube://www.youtube.com/watch?v=NuAtoaQF7-k&feature=applinks'
+          type: iphone
+          name: YouTube
+        - id: com.google.android.youtube
+          namespace: twitter
+          url: 'https://www.youtube.com/watch?v=NuAtoaQF7-k'
+          type: googleplay
+          name: YouTube
+        - path: http/www.youtube.com/watch?v=NuAtoaQF7-k
+          package: com.google.android.youtube
+          namespace: google
+          type: android
+        - path: vnd.youtube/www.youtube.com/watch?v=NuAtoaQF7-k
+          package: '544007664'
+          namespace: google
+          type: ios
+      datePublished: null
+    title: !<tag:yaml.org,2002:js/undefined> ''
+    caption: !<tag:yaml.org,2002:js/undefined> ''
+    text: !<tag:yaml.org,2002:js/undefined> ''
+layout_spectrum: 0.08249124591072819
 color:
+  lightness: 0.7294928957733998
   brandColors:
-    - '#e8e8e8'
-    - '#acb2b6'
-    - '#222222'
-    - '#ffe026'
-    - '#b5a924'
-  brandStrength: 0.75
-  lightness: 0.19389018532820046
-  saturation: 0.75
-  rhythmicContrast: 0.47340575815178454
-purpose: []
+    - '#E2E8EC'
+    - '#FEE90C'
+    - '#231F20'
+    - '#ADB0B4'
+    - '#787677'
+  saturation: 0.8325758909517991
+  brandStrength: 0.07550069872262234
+  rhythmicContrast: 0.95242119831365
+content_rating:
+  adult: false
+typography_spectrum: 0.4106827173413395
+opengraph: {}
+title: Riding the Rhinos
